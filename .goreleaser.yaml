@@ -7,7 +7,8 @@ builds:
       - darwin
 
 kos:
-  - repository: ghcr.io/goreleaser/goreleaser-example-slsa-provenance
+  - repository: github.com/vkuznet/embeddb
+    # - repository: ghcr.io/goreleaser/goreleaser-example-slsa-provenance
     tags:
       - '{{.Tag}}'
       - '{{ if not .Prerelease }}latest{{ end }}' 
