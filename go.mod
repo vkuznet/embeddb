@@ -1,6 +1,6 @@
 module github.com/vkuznet/embeddb
 
-go 1.21.4
+go 1.21
 
 require (
 	github.com/dgraph-io/badger/v4 v4.2.0
