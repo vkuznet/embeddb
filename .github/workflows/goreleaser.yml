@@ -15,7 +15,7 @@ jobs:
     permissions:
       contents: write
       packages: write
-     # id-token: write
+      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v2.3.4
